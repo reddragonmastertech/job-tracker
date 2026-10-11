@@ -5,5 +5,10 @@
     "frontend",
     "backend/v1-apps-script",
     "backend/v2-hono"
-  ]
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace frontend run dev",
+    "dev:backend": "npm --workspace backend/v2-hono run dev",
+    "build": "npm --workspace frontend run build"
+  }
 }
